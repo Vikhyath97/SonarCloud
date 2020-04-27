@@ -1,0 +1,3 @@
+[run]
+source = data_extraction
+omit = data_extraction/test*
