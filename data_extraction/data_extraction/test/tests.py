@@ -67,6 +67,7 @@ class TestMyViewFailureCondition(BaseTest):
 
 
 class TestMyView(BaseTest):
+    """Testing the view """
     def test_view(self):
         from ..views.check_view import my_view
         info = my_view(dummy_request(self.session))
